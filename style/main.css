@@ -215,6 +215,10 @@
 .des_smimg .active{border: 1px solid #FF9C01;}
 
 /* 商品选择 */
-.mooc_price_left{float: left;width: 48px;line-height: 35px;}
-.mooc_price{display: inline-block;font-weight: bold;color: #d70000;}
-.mooc_price em{font-style: normal;font-size: 22px;}
+.product_name{margin-bottom: 15px;}
+.product_name h1{font-size: 16px;}
+.product_price{line-height: 35px;}
+.price_left{float: left;width: 48px;}
+.price_left li{padding-bottom:0px;}
+.price_right .price{display: inline-block;font-weight: bold;color: #d70000;}
+.price_right .price em{font-style: normal;font-size: 22px;}
