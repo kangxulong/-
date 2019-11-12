@@ -210,15 +210,18 @@
 .production_imgs{padding-top: 18px;}
 .production_imgs .big{height: 300px;text-align: center;}
 .des_smimg{padding-left: 1px;margin: 15px auto;width: 266px;}
-.des_smimg li{float: left;border-top: 1px solid #ccc;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.des_smimg li{float: left;border: 1px solid #ccc;margin-left: -1px;}
 .des_smimg .li_first{float: left;border: 1px solid #ccc;}
-.des_smimg .active{border: 1px solid #FF9C01;}
+.des_smimg .active{border: 1px solid #FF9C01;position: relative;}
 
-/* 商品选择 */
-.product_name{margin-bottom: 15px;}
-.product_name h1{font-size: 16px;}
+/* 商品名字及价格 */
+.des-content{padding: 10px;}
+.des-content h1{font:16px/22px "Microsoft Yahei","微软雅黑";padding: 16px;}
 .product_price{line-height: 35px;}
 .price_left{float: left;width: 48px;}
 .price_right .price{display: inline-block;font-weight: bold;color: #d70000;line-height: 0px;}
 .price_right .price em{font-style: normal;font-size: 22px;}
 .offer .manhuangou{background: url(../img/icon/manhuangou.png) left center no-repeat;display: inline-block;width: 46px;padding-left: 15px;color: #FFF;}
+
+/* 商品选择 */
+.choose{height: 245px;background-color: #f2f2f2;}
