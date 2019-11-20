@@ -204,7 +204,7 @@
 .description_info{background-color: #fff;}
 .description{border: 1px solid #ccc;display: flex;justify-content: space-between;flex-direction: row;flex-wrap: nowrap;}
 .description .leftArea{width: 309px;}
-.description .rightArea{width: 690px;border-left: 1px solid #ccc;}
+.description .rightArea{width: 690px;border-left: 1px solid #ccc;padding:10px;}
 
 /* 图片展示 */
 .production_imgs{padding-top: 18px;}
@@ -215,10 +215,15 @@
 .des_smimg .active{border: 1px solid #FF9C01;position: relative;}
 
 /* 商品名字及价格 */
-.des-content{padding: 10px;}
 .des-content h1{font:bold 16px/22px "Microsoft Yahei","微软雅黑";padding: 13px 15px;}
 .des-content .dl{display: flex;justify-content: flex-start;flex-direction: row;flex-wrap: nowrap;align-items: flex-end;line-height: 33px;vertical-align: bottom;}
 .des-content .dt{width: 48px;padding-left: 15px;padding-right: 10px;color: #666666;}
 .des-content .dd span{font-size:22px;color: #d70000;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;}
 .des-content .dd em{font-style: normal;font: 12px;color: #d70000;}
 .des-content .dd .hg{background:url(../img/icon/manhuangou.png) center center no-repeat;display: inline-block;padding: 0 10px 0 20px;color: #fff;}
+
+/* 商品选择 */
+.choose{background-color: #f2f2f2;padding: 20px 0px 25px;}
+.choose .dl{line-height:24px;}
+.choose .select{margin-right: 10px;}
+.choose .color_opinion{background-color: #fff;border: 1px solid #ccc;height: 12px;line-height: 12px;padding: 10px 27px;}
