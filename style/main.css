@@ -227,6 +227,12 @@
 .choose{background-color: #f2f2f2;padding: 20px 0px 25px;}
 .choose .dl{line-height:24px;margin-bottom: 16px;}
 .choose .select{margin-right: 10px;color: #666;}
-.choose .color_opinion a{display:inline-block; background-color: #fff;border: 1px solid #ccc;line-height: 32px;padding: 0px 27px;margin-right: 10px;color: #000;width: auto;height: 32px;}
-.choose .specification_opinion a{display:inline-block;padding: 9px 10px 6px 10px;border: 1px solid #ccc;background-color: #fff;font-family: Verdana, Geneva, Tahoma, sans-serif;margin-right: 10px;height: 9px;line-height: 9px;margin-bottom: 9px;color: #666666;}
-.choose .dd .active{border: 1px solid #317ee7;}
+.choose .color_opinion{display:inline-block; background-color: #fff;border: 1px solid #ccc;line-height: 32px;padding: 0px 27px;margin-right: 10px;color: #000;width: auto;height: 32px;}
+.choose .specification_opinion{display:inline-block;padding: 9px 10px 6px 10px;border: 1px solid #ccc;background-color: #fff;font-family: Verdana, Geneva, Tahoma, sans-serif;margin-right: 10px;height: 9px;line-height: 9px;margin-bottom: 9px;color: #666666;}
+.choose .dd .active{border-color: #317ee7;color: #333;}
+
+.des_num{border: 1px solid #b2b2b2;width: 82px;text-align:center;}
+.des_num div{height: 100%;}
+.des_num .reduction{width:15px;}
+.des_num .des_num_input{width: 50px;border-left: 1px solid #b2b2b2;border-right: 1px solid #b2b2b2;background-color: #fff;height: 32px;}
+.des_num .plus{width: 15px;}
